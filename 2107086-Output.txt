@@ -1,0 +1,102 @@
+1.Deposit money in account 1.
+
+Enter customer name: Azad
+Enter customer address: Dhaka
+Enter account number for account 1: 123
+Enter initial balance for account 1: 200
+Enter account number for account 2: 321
+Enter initial balance for account 2: 300
+Accounts for Customer Azad:
+Account Number: 123, Balance: $200
+Account Number: 321, Balance: $300
+Enter transaction type (deposit, withdraw, transfer): deposit
+Enter transaction amount: 50
+enter 1 for account no. 1 and 2 for account no. 2
+1
+Deposit of $50 successful on account no. 123
+Updated Account Information:
+Accounts for Customer Azad:
+Account Number: 123, Balance: $250
+Account Number: 321, Balance: $300
+
+2. Withdraw money in account 2.
+
+Enter customer name: Azad
+Enter customer address: Dhaka
+Enter account number for account 1: 123
+Enter initial balance for account 1: 500
+Enter account number for account 2: 321
+Enter initial balance for account 2: 300
+Accounts for Customer Azad:
+Account Number: 123, Balance: $500
+Account Number: 321, Balance: $300
+Enter transaction type (deposit, withdraw, transfer): withdraw
+Enter transaction amount: 100
+enter 1 for account no. 1 and 2 for account no. 2
+2
+Withdrawal of $100 successful on account no. 321
+Updated Account Information:
+Accounts for Customer Azad:
+Account Number: 123, Balance: $500
+Account Number: 321, Balance: $200
+
+3. Insufficiant money to withdraw.
+
+Enter customer name: Azad
+Enter customer address: dhaka
+Enter account number for account 1: 123
+Enter initial balance for account 1: 500
+Enter account number for account 2: 321
+Enter initial balance for account 2: 300
+Accounts for Customer Azad:
+Account Number: 123, Balance: $500
+Account Number: 321, Balance: $300
+Enter transaction type (deposit, withdraw, transfer): withdraw
+Enter transaction amount: 400
+enter 1 for account no. 1 and 2 for account no. 2
+2
+Insufficient funds for withdrawal!
+
+4.Transfer money from one account to another.
+
+Enter customer name: Azad
+Enter customer address: dhaka
+Enter account number for account 1: 123
+Enter initial balance for account 1: 500
+Enter account number for account 2: 321
+Enter initial balance for account 2: 600
+Accounts for Customer Azad:
+Account Number: 123, Balance: $500
+Account Number: 321, Balance: $600
+Enter transaction type (deposit, withdraw, transfer): transfer
+Enter transaction amount: 100
+enter 1 for account no. 1 to 2 for account no. 2
+enter 2 for account no. 2 and 1 for account no. 2
+2
+Transfer of $100from account number 321 to account number 123
+Updated Account Information:
+Accounts for Customer Azad:
+Account Number: 123, Balance: $600
+Account Number: 321, Balance: $500
+
+5. Insufficiant money to transfer.
+
+Enter customer name: Azad
+Enter customer address: dhaka
+Enter account number for account 1: 12
+Enter initial balance for account 1: 500
+Enter account number for account 2: 321
+Enter initial balance for account 2: 600
+Accounts for Customer Azad:
+Account Number: 12, Balance: $500
+Account Number: 321, Balance: $600
+Enter transaction type (deposit, withdraw, transfer): transfer
+Enter transaction amount: 800
+enter 1 for account no. 1 to 2 for account no. 2
+enter 2 for account no. 2 and 1 for account no. 2
+1
+Insufficient funds for transfer!
+Updated Account Information:
+Accounts for Customer Azad:
+Account Number: 12, Balance: $500
+Account Number: 321, Balance: $600
