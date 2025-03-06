@@ -1,47 +1,44 @@
-🏦 Banking System - C++ Project
+<h1>🏦 Banking System - C++ Project</h1>
 
-📖 Introduction
-This is a C++ banking system that allows customers to create bank accounts, perform deposits, withdrawals, and transfers between accounts. The system also integrates ATM functionalities and maintains customer account records.
+<h2>📖 Introduction</h2>
+<p>This is a <strong>C++ banking system</strong> that allows customers to create bank accounts, perform deposits, withdrawals, and transfers between accounts. The system also integrates ATM functionalities and maintains customer account records.</p>
 
-✨ Features
-✅ Customer Account Management → Create and manage bank accounts.
-✅ Deposit Money → Add money to a specific bank account.
-✅ Withdraw Money → Deduct money while ensuring sufficient balance.
-✅ Money Transfer → Transfer money between two accounts.
-✅ ATM Functionality → Check balance using an ATM system.
-✅ Friend Functions & Classes → Implements friend function and class relationships for controlled access.
+<h2>✨ Features</h2>
+<ul>
+  <li>✅ <strong>Customer Account Management</strong> → Create and manage bank accounts with customer details.</li>
+  <li>✅ <strong>Deposit Money</strong> → Add money to a specific bank account by specifying the amount.</li>
+  <li>✅ <strong>Withdraw Money</strong> → Deduct money from a bank account while ensuring sufficient balance is available.</li>
+  <li>✅ <strong>Money Transfer</strong> → Transfer money between two different accounts after validating the balance.</li>
+  <li>✅ <strong>ATM Functionality</strong> → Customers can check their account balance using ATM system functionality.</li>
+  <li>✅ <strong>Friend Functions & Classes</strong> → Implements friend functions and class relationships for controlled access to private members of classes.</li>
+</ul>
 
-🛠 Technologies Used
-C++ (OOP Concepts)
-Friend Functions & Classes
-Static Methods
-User Input Handling
-🚀 How to Compile and Run
-🔹 Steps (Using g++)
-1️⃣ Open Terminal / Command Prompt.
-2️⃣ Navigate to the folder containing the file:
+<h2>🛠 Technologies Used</h2>
+<ul>
+  <li>C++ (Object-Oriented Programming concepts)</li>
+  <li>Friend Functions & Classes</li>
+  <li>Static Methods</li>
+  <li>User Input Handling</li>
+</ul>
 
-sh
-Copy
-Edit
-cd path/to/your-project
-3️⃣ Compile the program using:
+<h2>🚀 How to Compile and Run</h2>
 
-sh
-Copy
-Edit
-g++ -o banking_system banking_system.cpp
-4️⃣ Run the program:
+<h3>🔹 Steps (Using g++)</h3>
+<ol>
+  <li>Open <strong>Terminal / Command Prompt</strong>.</li>
+  <li>Navigate to the folder containing the file using the <code>cd path/to/your-project</code> command.</li>
+  <li>Compile the program using the following command:
+    <pre>g++ -o banking_system banking_system.cpp</pre>
+  </li>
+  <li>Run the program using:
+    <pre>./banking_system</pre>
+  </li>
+</ol>
 
-sh
-Copy
-Edit
-./banking_system
-📌 Usage Example
-🔹 Sample User Interaction
-yaml
-Copy
-Edit
+<h2>📌 Usage Example</h2>
+
+<h3>🔹 Sample User Interaction</h3>
+<pre>
 Enter customer name: John Doe
 Enter customer address: 123 Main St
 
@@ -66,20 +63,25 @@ Transfer of $1000 from account number 1001 to account number 2002
 Updated Account Information:
 Account Number: 1001, Balance: $4000
 Account Number: 2002, Balance: $4000
-📂 File Structure
-bash
-Copy
-Edit
+</pre>
+
+<h2>📂 File Structure</h2>
+
+<pre>
 /BankingSystem
 │── banking_system.cpp   # Main source code
 │── README.md            # Documentation file
-🔧 Future Enhancements
-🚀 Add file handling to store transaction history.
-🚀 Implement interest calculation based on account type.
-🚀 Add authentication system for customer logins.
+</pre>
 
-📜 License
-This project is open-source. Feel free to use, modify, and contribute!
+<h2>🔧 Future Enhancements</h2>
+<ul>
+  <li>🚀 Add file handling to store transaction history for better tracking.</li>
+  <li>🚀 Implement interest calculation based on account type (savings, checking, etc.).</li>
+  <li>🚀 Add an authentication system for customer logins to enhance security.</li>
+</ul>
 
-💡 Conclusion
-This banking system demonstrates Object-Oriented Programming (OOP) principles, friend functions, and user-friendly transactions. It is a simple yet effective banking simulation for learning C++ programming.
+<h2>📜 License</h2>
+<p>This project is open-source. Feel free to use, modify, and contribute!</p>
+
+<h2>💡 Conclusion</h2>
+<p>This banking system demonstrates Object-Oriented Programming (OOP) principles, <strong>friend functions</strong>, and user-friendly transactions. It serves as a simple yet effective banking simulation for learning and practicing <strong>C++ programming</strong>.</p>
